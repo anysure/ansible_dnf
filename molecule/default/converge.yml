@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include anysure.ansible_dnf"
+      include_role:
+        name: "anysure.ansible_dnf"
